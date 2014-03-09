@@ -35,3 +35,5 @@ typedef enum{
 
 #define GetHoroDataNotificationName @"DidGetHoroData"
 #define urlKeyArray [[NSArray alloc] initWithObjects:@"today", @"week", @"month", nil]
+#define horoEnglishNameArray [[NSArray alloc] initWithObjects:@"aries", @"taurus", @"gemini", @"cancer", @"leonis", @"virgo",@"libra", @"scorpius", @"sagittarius",@"capricornus", @"aquarius", @"pisces",nil]
+#define horoChineseNameArray [[NSArray alloc] initWithObjects:@"白羊座", @"金牛座", @"双子座", @"巨蟹座", @"狮子座", @"处女座",@"天秤座", @"天蝎座", @"射手座",@"摩羯座", @"水瓶座", @"双鱼座",nil]
