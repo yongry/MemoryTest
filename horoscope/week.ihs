@@ -1,0 +1,6 @@
+%- http://astro.lady.qq.com/ -%
+%-start-%
+时间：</strong><span class="co_5">%info(time)</span>
+星座：</strong><span class="co_5">%info(horo)</span>
+<td valign="top" class="pad1 lh24 fs14 co_6"><p id="maintext">恋情：%info(love)<br/>工作：%info(work)<br/>求职：%info(job)<br/>财运：%info(money)<br/>健康：%info(health)</p></td>
+%-end-%

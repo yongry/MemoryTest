@@ -1,0 +1,15 @@
+%- http://astro.lady.qq.com/ -%
+%-start-%
+<ul class="xz">%list(today){
+<a target="_blank" href="%info(url)">%info(horo)</a>
+}<div class="tabBody3">
+
+<ul class="xz">%list(week){
+<a target="_blank" href="%info(url)">%info(horo)</a>
+}<div class="tabBody3">
+
+<ul class="xz">%list(month){
+<a target="_blank" href="%info(url)">%info(horo)</a>
+}<div class="tabBody3">
+
+%-end-%

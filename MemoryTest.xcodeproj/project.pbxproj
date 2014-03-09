@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF07F509157A4E2300FC1A7E /* aquarius.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F496157A4E2300FC1A7E /* aquarius.png */; };
+		BF07F50A157A4E2300FC1A7E /* aquarius_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F497157A4E2300FC1A7E /* aquarius_highlighted.png */; };
+		BF07F50B157A4E2300FC1A7E /* aquarius_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F498157A4E2300FC1A7E /* aquarius_normal.png */; };
+		BF07F50C157A4E2300FC1A7E /* aquarius_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F499157A4E2300FC1A7E /* aquarius_selected.png */; };
+		BF07F50D157A4E2300FC1A7E /* aries.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F49A157A4E2300FC1A7E /* aries.png */; };
+		BF07F50E157A4E2300FC1A7E /* aries_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F49B157A4E2300FC1A7E /* aries_highlighted.png */; };
+		BF07F50F157A4E2300FC1A7E /* aries_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F49C157A4E2300FC1A7E /* aries_normal.png */; };
+		BF07F510157A4E2300FC1A7E /* aries_seleceted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F49D157A4E2300FC1A7E /* aries_seleceted.png */; };
+		BF07F511157A4E2300FC1A7E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F49E157A4E2300FC1A7E /* background.png */; };
+		BF07F512157A4E2300FC1A7E /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F49F157A4E2300FC1A7E /* ball.png */; };
+		BF07F513157A4E2300FC1A7E /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A0157A4E2300FC1A7E /* ball2.png */; };
+		BF07F514157A4E2300FC1A7E /* cancer.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A1157A4E2300FC1A7E /* cancer.png */; };
+		BF07F515157A4E2300FC1A7E /* cancer_hightlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A2157A4E2300FC1A7E /* cancer_hightlighted.png */; };
+		BF07F516157A4E2300FC1A7E /* cancer_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A3157A4E2300FC1A7E /* cancer_normal.png */; };
+		BF07F517157A4E2300FC1A7E /* cancer_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A4157A4E2300FC1A7E /* cancer_selected.png */; };
+		BF07F518157A4E2300FC1A7E /* capricornus.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A5157A4E2300FC1A7E /* capricornus.png */; };
+		BF07F519157A4E2300FC1A7E /* capricornus_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A6157A4E2300FC1A7E /* capricornus_highlighted.png */; };
+		BF07F51A157A4E2300FC1A7E /* capricornus_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A7157A4E2300FC1A7E /* capricornus_normal.png */; };
+		BF07F51B157A4E2300FC1A7E /* capricornus_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A8157A4E2300FC1A7E /* capricornus_selected.png */; };
+		BF07F51C157A4E2300FC1A7E /* gemini.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4A9157A4E2300FC1A7E /* gemini.png */; };
+		BF07F51D157A4E2300FC1A7E /* gemini_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4AA157A4E2300FC1A7E /* gemini_highlighted.png */; };
+		BF07F51E157A4E2300FC1A7E /* gemini_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4AB157A4E2300FC1A7E /* gemini_normal.png */; };
+		BF07F51F157A4E2300FC1A7E /* gemini_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4AC157A4E2300FC1A7E /* gemini_selected.png */; };
+		BF07F520157A4E2300FC1A7E /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4AD157A4E2300FC1A7E /* health.png */; };
+		BF07F521157A4E2300FC1A7E /* jobhunting.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4AE157A4E2300FC1A7E /* jobhunting.png */; };
+		BF07F522157A4E2300FC1A7E /* leonis.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4AF157A4E2300FC1A7E /* leonis.png */; };
+		BF07F523157A4E2300FC1A7E /* leonis_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B0157A4E2300FC1A7E /* leonis_highlighted.png */; };
+		BF07F524157A4E2300FC1A7E /* leonis_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B1157A4E2300FC1A7E /* leonis_normal.png */; };
+		BF07F525157A4E2300FC1A7E /* leonis_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B2157A4E2300FC1A7E /* leonis_selected.png */; };
+		BF07F526157A4E2300FC1A7E /* libra.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B3157A4E2300FC1A7E /* libra.png */; };
+		BF07F527157A4E2300FC1A7E /* libra_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B4157A4E2300FC1A7E /* libra_highlighted.png */; };
+		BF07F528157A4E2300FC1A7E /* libra_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B5157A4E2300FC1A7E /* libra_normal.png */; };
+		BF07F529157A4E2300FC1A7E /* libra_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B6157A4E2300FC1A7E /* libra_selected.png */; };
+		BF07F52A157A4E2300FC1A7E /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B7157A4E2300FC1A7E /* line.png */; };
+		BF07F52B157A4E2300FC1A7E /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B8157A4E2300FC1A7E /* love.png */; };
+		BF07F52C157A4E2300FC1A7E /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4B9157A4E2300FC1A7E /* money.png */; };
+		BF07F52D157A4E2300FC1A7E /* Pisces.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4BA157A4E2300FC1A7E /* Pisces.png */; };
+		BF07F52E157A4E2300FC1A7E /* Pisces_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4BB157A4E2300FC1A7E /* Pisces_highlighted.png */; };
+		BF07F52F157A4E2300FC1A7E /* Pisces_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4BC157A4E2300FC1A7E /* Pisces_normal.png */; };
+		BF07F530157A4E2300FC1A7E /* Pisces_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4BD157A4E2300FC1A7E /* Pisces_selected.png */; };
+		BF07F531157A4E2300FC1A7E /* sagittarius.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4BE157A4E2300FC1A7E /* sagittarius.png */; };
+		BF07F532157A4E2300FC1A7E /* sagittarius_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4BF157A4E2300FC1A7E /* sagittarius_highlighted.png */; };
+		BF07F533157A4E2300FC1A7E /* sagittarius_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C0157A4E2300FC1A7E /* sagittarius_normal.png */; };
+		BF07F534157A4E2300FC1A7E /* sagittarius_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C1157A4E2300FC1A7E /* sagittarius_selected.png */; };
+		BF07F535157A4E2300FC1A7E /* scorpius.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C2157A4E2300FC1A7E /* scorpius.png */; };
+		BF07F536157A4E2300FC1A7E /* scorpius_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C3157A4E2300FC1A7E /* scorpius_highlighted.png */; };
+		BF07F537157A4E2300FC1A7E /* scorpius_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C4157A4E2300FC1A7E /* scorpius_normal.png */; };
+		BF07F538157A4E2300FC1A7E /* scorpius_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C5157A4E2300FC1A7E /* scorpius_selected.png */; };
+		BF07F539157A4E2300FC1A7E /* taurus.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C6157A4E2300FC1A7E /* taurus.png */; };
+		BF07F53A157A4E2300FC1A7E /* taurus_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C7157A4E2300FC1A7E /* taurus_highlighted.png */; };
+		BF07F53B157A4E2300FC1A7E /* taurus_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C8157A4E2300FC1A7E /* taurus_normal.png */; };
+		BF07F53C157A4E2300FC1A7E /* taurus_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4C9157A4E2300FC1A7E /* taurus_selected.png */; };
+		BF07F53D157A4E2300FC1A7E /* virgo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4CA157A4E2300FC1A7E /* virgo.png */; };
+		BF07F53E157A4E2300FC1A7E /* virgo_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4CB157A4E2300FC1A7E /* virgo_highlighted.png */; };
+		BF07F53F157A4E2300FC1A7E /* virgo_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4CC157A4E2300FC1A7E /* virgo_normal.png */; };
+		BF07F540157A4E2300FC1A7E /* virgo_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4CD157A4E2300FC1A7E /* virgo_selected.png */; };
+		BF07F541157A4E2300FC1A7E /* work.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4CE157A4E2300FC1A7E /* work.png */; };
+		BF07F542157A4E2300FC1A7E /* aquarius@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D0157A4E2300FC1A7E /* aquarius@2x.png */; };
+		BF07F543157A4E2300FC1A7E /* aquarius_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D1157A4E2300FC1A7E /* aquarius_highlighted@2x.png */; };
+		BF07F544157A4E2300FC1A7E /* aquarius_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D2157A4E2300FC1A7E /* aquarius_normal@2x.png */; };
+		BF07F545157A4E2300FC1A7E /* aquarius_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D3157A4E2300FC1A7E /* aquarius_selected@2x.png */; };
+		BF07F546157A4E2300FC1A7E /* aries@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D4157A4E2300FC1A7E /* aries@2x.png */; };
+		BF07F547157A4E2300FC1A7E /* aries_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D5157A4E2300FC1A7E /* aries_highlighted@2x.png */; };
+		BF07F548157A4E2300FC1A7E /* aries_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D6157A4E2300FC1A7E /* aries_normal@2x.png */; };
+		BF07F549157A4E2300FC1A7E /* aries_seleceted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D7157A4E2300FC1A7E /* aries_seleceted@2x.png */; };
+		BF07F54A157A4E2300FC1A7E /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D8157A4E2300FC1A7E /* background@2x.png */; };
+		BF07F54B157A4E2300FC1A7E /* ball2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4D9157A4E2300FC1A7E /* ball2@2x.png */; };
+		BF07F54C157A4E2300FC1A7E /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4DA157A4E2300FC1A7E /* ball@2x.png */; };
+		BF07F54D157A4E2300FC1A7E /* cancer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4DB157A4E2300FC1A7E /* cancer@2x.png */; };
+		BF07F54E157A4E2300FC1A7E /* cancer_hightlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4DC157A4E2300FC1A7E /* cancer_hightlighted@2x.png */; };
+		BF07F54F157A4E2300FC1A7E /* cancer_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4DD157A4E2300FC1A7E /* cancer_normal@2x.png */; };
+		BF07F550157A4E2300FC1A7E /* cancer_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4DE157A4E2300FC1A7E /* cancer_selected@2x.png */; };
+		BF07F551157A4E2300FC1A7E /* capricornus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4DF157A4E2300FC1A7E /* capricornus@2x.png */; };
+		BF07F552157A4E2300FC1A7E /* capricornus_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E0157A4E2300FC1A7E /* capricornus_highlighted@2x.png */; };
+		BF07F553157A4E2300FC1A7E /* capricornus_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E1157A4E2300FC1A7E /* capricornus_normal@2x.png */; };
+		BF07F554157A4E2300FC1A7E /* capricornus_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E2157A4E2300FC1A7E /* capricornus_selected@2x.png */; };
+		BF07F555157A4E2300FC1A7E /* gemini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E3157A4E2300FC1A7E /* gemini@2x.png */; };
+		BF07F556157A4E2300FC1A7E /* gemini_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E4157A4E2300FC1A7E /* gemini_highlighted@2x.png */; };
+		BF07F557157A4E2300FC1A7E /* gemini_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E5157A4E2300FC1A7E /* gemini_normal@2x.png */; };
+		BF07F558157A4E2300FC1A7E /* gemini_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E6157A4E2300FC1A7E /* gemini_selected@2x.png */; };
+		BF07F559157A4E2300FC1A7E /* health@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E7157A4E2300FC1A7E /* health@2x.png */; };
+		BF07F55A157A4E2300FC1A7E /* jobhunting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E8157A4E2300FC1A7E /* jobhunting@2x.png */; };
+		BF07F55B157A4E2300FC1A7E /* leonis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4E9157A4E2300FC1A7E /* leonis@2x.png */; };
+		BF07F55C157A4E2300FC1A7E /* leonis_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4EA157A4E2300FC1A7E /* leonis_highlighted@2x.png */; };
+		BF07F55D157A4E2300FC1A7E /* leonis_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4EB157A4E2300FC1A7E /* leonis_normal@2x.png */; };
+		BF07F55E157A4E2300FC1A7E /* leonis_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4EC157A4E2300FC1A7E /* leonis_selected@2x.png */; };
+		BF07F55F157A4E2300FC1A7E /* libra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4ED157A4E2300FC1A7E /* libra@2x.png */; };
+		BF07F560157A4E2300FC1A7E /* libra_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4EE157A4E2300FC1A7E /* libra_highlighted@2x.png */; };
+		BF07F561157A4E2300FC1A7E /* libra_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4EF157A4E2300FC1A7E /* libra_normal@2x.png */; };
+		BF07F562157A4E2300FC1A7E /* libra_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F0157A4E2300FC1A7E /* libra_selected@2x.png */; };
+		BF07F563157A4E2300FC1A7E /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F1157A4E2300FC1A7E /* line@2x.png */; };
+		BF07F564157A4E2300FC1A7E /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F2157A4E2300FC1A7E /* love@2x.png */; };
+		BF07F565157A4E2300FC1A7E /* money@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F3157A4E2300FC1A7E /* money@2x.png */; };
+		BF07F566157A4E2300FC1A7E /* Pisces@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F4157A4E2300FC1A7E /* Pisces@2x.png */; };
+		BF07F567157A4E2300FC1A7E /* Pisces_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F5157A4E2300FC1A7E /* Pisces_highlighted@2x.png */; };
+		BF07F568157A4E2300FC1A7E /* Pisces_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F6157A4E2300FC1A7E /* Pisces_normal@2x.png */; };
+		BF07F569157A4E2300FC1A7E /* Pisces_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F7157A4E2300FC1A7E /* Pisces_selected@2x.png */; };
+		BF07F56A157A4E2300FC1A7E /* sagittarius@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F8157A4E2300FC1A7E /* sagittarius@2x.png */; };
+		BF07F56B157A4E2300FC1A7E /* sagittarius_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4F9157A4E2300FC1A7E /* sagittarius_highlighted@2x.png */; };
+		BF07F56C157A4E2300FC1A7E /* sagittarius_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4FA157A4E2300FC1A7E /* sagittarius_normal@2x.png */; };
+		BF07F56D157A4E2300FC1A7E /* sagittarius_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4FB157A4E2300FC1A7E /* sagittarius_selected@2x.png */; };
+		BF07F56E157A4E2300FC1A7E /* scorpius@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4FC157A4E2300FC1A7E /* scorpius@2x.png */; };
+		BF07F56F157A4E2300FC1A7E /* scorpius_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4FD157A4E2300FC1A7E /* scorpius_highlighted@2x.png */; };
+		BF07F570157A4E2300FC1A7E /* scorpius_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4FE157A4E2300FC1A7E /* scorpius_normal@2x.png */; };
+		BF07F571157A4E2300FC1A7E /* scorpius_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F4FF157A4E2300FC1A7E /* scorpius_selected@2x.png */; };
+		BF07F572157A4E2300FC1A7E /* taurus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F500157A4E2300FC1A7E /* taurus@2x.png */; };
+		BF07F573157A4E2300FC1A7E /* taurus_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F501157A4E2300FC1A7E /* taurus_highlighted@2x.png */; };
+		BF07F574157A4E2300FC1A7E /* taurus_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F502157A4E2300FC1A7E /* taurus_normal@2x.png */; };
+		BF07F575157A4E2300FC1A7E /* taurus_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F503157A4E2300FC1A7E /* taurus_selected@2x.png */; };
+		BF07F576157A4E2300FC1A7E /* virgo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F504157A4E2300FC1A7E /* virgo@2x.png */; };
+		BF07F577157A4E2300FC1A7E /* virgo_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F505157A4E2300FC1A7E /* virgo_highlighted@2x.png */; };
+		BF07F578157A4E2300FC1A7E /* virgo_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F506157A4E2300FC1A7E /* virgo_normal@2x.png */; };
+		BF07F579157A4E2300FC1A7E /* virgo_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F507157A4E2300FC1A7E /* virgo_selected@2x.png */; };
+		BF07F57A157A4E2300FC1A7E /* work@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF07F508157A4E2300FC1A7E /* work@2x.png */; };
+		BF711DBB1574747200314B9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF711DBA1574747200314B9A /* UIKit.framework */; };
+		BF711DBD1574747200314B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF711DBC1574747200314B9A /* Foundation.framework */; };
+		BF711DBF1574747200314B9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF711DBE1574747200314B9A /* CoreGraphics.framework */; };
+		BF711DC51574747200314B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF711DC31574747200314B9A /* InfoPlist.strings */; };
+		BF711DC71574747200314B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DC61574747200314B9A /* main.m */; };
+		BF711DCB1574747200314B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DCA1574747200314B9A /* AppDelegate.m */; };
+		BF711DCE1574747200314B9A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF711DCC1574747200314B9A /* MainStoryboard.storyboard */; };
+		BF711DD11574747200314B9A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DD01574747200314B9A /* MainViewController.m */; };
+		BF711DD91574769900314B9A /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DD81574769900314B9A /* TodayViewController.m */; };
+		BF711DDC157476A200314B9A /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DDB157476A200314B9A /* WeekViewController.m */; };
+		BF711DDF157476B300314B9A /* MonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DDE157476B300314B9A /* MonthViewController.m */; };
+		BF711DF41574B1A400314B9A /* InfoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711DF31574B1A400314B9A /* InfoClient.m */; };
+		BF711DFF1574B3EC00314B9A /* month.ihs in Resources */ = {isa = PBXBuildFile; fileRef = BF711DFB1574B3EC00314B9A /* month.ihs */; };
+		BF711E001574B3EC00314B9A /* today.ihs in Resources */ = {isa = PBXBuildFile; fileRef = BF711DFC1574B3EC00314B9A /* today.ihs */; };
+		BF711E011574B3EC00314B9A /* url.ihs in Resources */ = {isa = PBXBuildFile; fileRef = BF711DFD1574B3EC00314B9A /* url.ihs */; };
+		BF711E021574B3EC00314B9A /* week.ihs in Resources */ = {isa = PBXBuildFile; fileRef = BF711DFE1574B3EC00314B9A /* week.ihs */; };
+		BF711E091574EC1800314B9A /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711E081574EC1700314B9A /* TitleCell.m */; };
+		BF711E0D1574EE3C00314B9A /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF711E0C1574EE3C00314B9A /* ContentCell.m */; };
+		CF0ACE58160ADC1E00E7AADF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0ACE57160ADC1E00E7AADF /* libz.dylib */; };
+		CF0ACE5A160ADC5A00E7AADF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0ACE59160ADC5A00E7AADF /* MobileCoreServices.framework */; };
+		CF3AB50A16E9ABD400122EE1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3AB50916E9ABD400122EE1 /* icon.png */; };
+		CF3AB50D16E9ABE400122EE1 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3AB50C16E9ABE400122EE1 /* icon@2x.png */; };
+		CF3B4E9F16DDF7580013C9ED /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3B4E9E16DDF7580013C9ED /* all.png */; };
+		CF93AF5515FB37C2001729C5 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CF93AF5415FB37C2001729C5 /* PieChart.m */; };
+		CF95FBE915ECDB1B00C947BF /* MagicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF95FBE815ECDB1B00C947BF /* MagicCell.m */; };
+		CF95FBEC15ECDF0900C947BF /* PercentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF95FBEB15ECDF0900C947BF /* PercentCell.m */; };
+		CFA087F11606BA3900114B0E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA087F01606BA3800114B0E /* SystemConfiguration.framework */; };
+		CFCA571B1611820D00D19284 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56CA1611820D00D19284 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA571C1611820D00D19284 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56CD1611820D00D19284 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA571D1611820D00D19284 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56CF1611820D00D19284 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA571E1611820D00D19284 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56D11611820D00D19284 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA571F1611820D00D19284 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56D31611820D00D19284 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA57201611820D00D19284 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56D51611820D00D19284 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA57211611820D00D19284 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56D91611820D00D19284 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA57221611820D00D19284 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA56DB1611820D00D19284 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFCA57431611821C00D19284 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA57421611821C00D19284 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFE33D0A16E9B5E3009DB095 /* libInfoHunter-iOS-111120.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE33D0716E9B5E2009DB095 /* libInfoHunter-iOS-111120.a */; };
+		CFE33D0B16E9B5E3009DB095 /* libInfoHunter-iSimulator-111120.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE33D0816E9B5E2009DB095 /* libInfoHunter-iSimulator-111120.a */; };
+		CFE33D0E16E9B710009DB095 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE33D0D16E9B710009DB095 /* CFNetwork.framework */; };
+		CFEF1E1816103725000AEB1A /* DescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEF1E1716103725000AEB1A /* DescriptionCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		276DBFD518CCC82E00C9B1D4 /* MemoryTestCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTestCommonDefine.h; sourceTree = "<group>"; };
+		BF07F496157A4E2300FC1A7E /* aquarius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquarius.png; sourceTree = "<group>"; };
+		BF07F497157A4E2300FC1A7E /* aquarius_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquarius_highlighted.png; sourceTree = "<group>"; };
+		BF07F498157A4E2300FC1A7E /* aquarius_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquarius_normal.png; sourceTree = "<group>"; };
+		BF07F499157A4E2300FC1A7E /* aquarius_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquarius_selected.png; sourceTree = "<group>"; };
+		BF07F49A157A4E2300FC1A7E /* aries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aries.png; sourceTree = "<group>"; };
+		BF07F49B157A4E2300FC1A7E /* aries_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aries_highlighted.png; sourceTree = "<group>"; };
+		BF07F49C157A4E2300FC1A7E /* aries_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aries_normal.png; sourceTree = "<group>"; };
+		BF07F49D157A4E2300FC1A7E /* aries_seleceted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aries_seleceted.png; sourceTree = "<group>"; };
+		BF07F49E157A4E2300FC1A7E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BF07F49F157A4E2300FC1A7E /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		BF07F4A0157A4E2300FC1A7E /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		BF07F4A1157A4E2300FC1A7E /* cancer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancer.png; sourceTree = "<group>"; };
+		BF07F4A2157A4E2300FC1A7E /* cancer_hightlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancer_hightlighted.png; sourceTree = "<group>"; };
+		BF07F4A3157A4E2300FC1A7E /* cancer_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancer_normal.png; sourceTree = "<group>"; };
+		BF07F4A4157A4E2300FC1A7E /* cancer_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancer_selected.png; sourceTree = "<group>"; };
+		BF07F4A5157A4E2300FC1A7E /* capricornus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capricornus.png; sourceTree = "<group>"; };
+		BF07F4A6157A4E2300FC1A7E /* capricornus_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capricornus_highlighted.png; sourceTree = "<group>"; };
+		BF07F4A7157A4E2300FC1A7E /* capricornus_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capricornus_normal.png; sourceTree = "<group>"; };
+		BF07F4A8157A4E2300FC1A7E /* capricornus_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capricornus_selected.png; sourceTree = "<group>"; };
+		BF07F4A9157A4E2300FC1A7E /* gemini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gemini.png; sourceTree = "<group>"; };
+		BF07F4AA157A4E2300FC1A7E /* gemini_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gemini_highlighted.png; sourceTree = "<group>"; };
+		BF07F4AB157A4E2300FC1A7E /* gemini_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gemini_normal.png; sourceTree = "<group>"; };
+		BF07F4AC157A4E2300FC1A7E /* gemini_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gemini_selected.png; sourceTree = "<group>"; };
+		BF07F4AD157A4E2300FC1A7E /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
+		BF07F4AE157A4E2300FC1A7E /* jobhunting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jobhunting.png; sourceTree = "<group>"; };
+		BF07F4AF157A4E2300FC1A7E /* leonis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leonis.png; sourceTree = "<group>"; };
+		BF07F4B0157A4E2300FC1A7E /* leonis_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leonis_highlighted.png; sourceTree = "<group>"; };
+		BF07F4B1157A4E2300FC1A7E /* leonis_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leonis_normal.png; sourceTree = "<group>"; };
+		BF07F4B2157A4E2300FC1A7E /* leonis_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leonis_selected.png; sourceTree = "<group>"; };
+		BF07F4B3157A4E2300FC1A7E /* libra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libra.png; sourceTree = "<group>"; };
+		BF07F4B4157A4E2300FC1A7E /* libra_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libra_highlighted.png; sourceTree = "<group>"; };
+		BF07F4B5157A4E2300FC1A7E /* libra_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libra_normal.png; sourceTree = "<group>"; };
+		BF07F4B6157A4E2300FC1A7E /* libra_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libra_selected.png; sourceTree = "<group>"; };
+		BF07F4B7157A4E2300FC1A7E /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		BF07F4B8157A4E2300FC1A7E /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		BF07F4B9157A4E2300FC1A7E /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		BF07F4BA157A4E2300FC1A7E /* Pisces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pisces.png; sourceTree = "<group>"; };
+		BF07F4BB157A4E2300FC1A7E /* Pisces_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pisces_highlighted.png; sourceTree = "<group>"; };
+		BF07F4BC157A4E2300FC1A7E /* Pisces_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pisces_normal.png; sourceTree = "<group>"; };
+		BF07F4BD157A4E2300FC1A7E /* Pisces_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pisces_selected.png; sourceTree = "<group>"; };
+		BF07F4BE157A4E2300FC1A7E /* sagittarius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sagittarius.png; sourceTree = "<group>"; };
+		BF07F4BF157A4E2300FC1A7E /* sagittarius_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sagittarius_highlighted.png; sourceTree = "<group>"; };
+		BF07F4C0157A4E2300FC1A7E /* sagittarius_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sagittarius_normal.png; sourceTree = "<group>"; };
+		BF07F4C1157A4E2300FC1A7E /* sagittarius_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sagittarius_selected.png; sourceTree = "<group>"; };
+		BF07F4C2157A4E2300FC1A7E /* scorpius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scorpius.png; sourceTree = "<group>"; };
+		BF07F4C3157A4E2300FC1A7E /* scorpius_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scorpius_highlighted.png; sourceTree = "<group>"; };
+		BF07F4C4157A4E2300FC1A7E /* scorpius_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scorpius_normal.png; sourceTree = "<group>"; };
+		BF07F4C5157A4E2300FC1A7E /* scorpius_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scorpius_selected.png; sourceTree = "<group>"; };
+		BF07F4C6157A4E2300FC1A7E /* taurus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taurus.png; sourceTree = "<group>"; };
+		BF07F4C7157A4E2300FC1A7E /* taurus_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taurus_highlighted.png; sourceTree = "<group>"; };
+		BF07F4C8157A4E2300FC1A7E /* taurus_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taurus_normal.png; sourceTree = "<group>"; };
+		BF07F4C9157A4E2300FC1A7E /* taurus_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taurus_selected.png; sourceTree = "<group>"; };
+		BF07F4CA157A4E2300FC1A7E /* virgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virgo.png; sourceTree = "<group>"; };
+		BF07F4CB157A4E2300FC1A7E /* virgo_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virgo_highlighted.png; sourceTree = "<group>"; };
+		BF07F4CC157A4E2300FC1A7E /* virgo_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virgo_normal.png; sourceTree = "<group>"; };
+		BF07F4CD157A4E2300FC1A7E /* virgo_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virgo_selected.png; sourceTree = "<group>"; };
+		BF07F4CE157A4E2300FC1A7E /* work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = work.png; sourceTree = "<group>"; };
+		BF07F4D0157A4E2300FC1A7E /* aquarius@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aquarius@2x.png"; sourceTree = "<group>"; };
+		BF07F4D1157A4E2300FC1A7E /* aquarius_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aquarius_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4D2157A4E2300FC1A7E /* aquarius_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aquarius_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4D3157A4E2300FC1A7E /* aquarius_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aquarius_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4D4157A4E2300FC1A7E /* aries@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aries@2x.png"; sourceTree = "<group>"; };
+		BF07F4D5157A4E2300FC1A7E /* aries_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aries_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4D6157A4E2300FC1A7E /* aries_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aries_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4D7157A4E2300FC1A7E /* aries_seleceted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aries_seleceted@2x.png"; sourceTree = "<group>"; };
+		BF07F4D8157A4E2300FC1A7E /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		BF07F4D9157A4E2300FC1A7E /* ball2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball2@2x.png"; sourceTree = "<group>"; };
+		BF07F4DA157A4E2300FC1A7E /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		BF07F4DB157A4E2300FC1A7E /* cancer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancer@2x.png"; sourceTree = "<group>"; };
+		BF07F4DC157A4E2300FC1A7E /* cancer_hightlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancer_hightlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4DD157A4E2300FC1A7E /* cancer_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancer_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4DE157A4E2300FC1A7E /* cancer_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancer_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4DF157A4E2300FC1A7E /* capricornus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capricornus@2x.png"; sourceTree = "<group>"; };
+		BF07F4E0157A4E2300FC1A7E /* capricornus_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capricornus_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4E1157A4E2300FC1A7E /* capricornus_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capricornus_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4E2157A4E2300FC1A7E /* capricornus_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capricornus_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4E3157A4E2300FC1A7E /* gemini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gemini@2x.png"; sourceTree = "<group>"; };
+		BF07F4E4157A4E2300FC1A7E /* gemini_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gemini_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4E5157A4E2300FC1A7E /* gemini_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gemini_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4E6157A4E2300FC1A7E /* gemini_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gemini_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4E7157A4E2300FC1A7E /* health@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health@2x.png"; sourceTree = "<group>"; };
+		BF07F4E8157A4E2300FC1A7E /* jobhunting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jobhunting@2x.png"; sourceTree = "<group>"; };
+		BF07F4E9157A4E2300FC1A7E /* leonis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leonis@2x.png"; sourceTree = "<group>"; };
+		BF07F4EA157A4E2300FC1A7E /* leonis_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leonis_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4EB157A4E2300FC1A7E /* leonis_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leonis_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4EC157A4E2300FC1A7E /* leonis_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leonis_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4ED157A4E2300FC1A7E /* libra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "libra@2x.png"; sourceTree = "<group>"; };
+		BF07F4EE157A4E2300FC1A7E /* libra_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "libra_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4EF157A4E2300FC1A7E /* libra_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "libra_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4F0157A4E2300FC1A7E /* libra_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "libra_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4F1157A4E2300FC1A7E /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		BF07F4F2157A4E2300FC1A7E /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
+		BF07F4F3157A4E2300FC1A7E /* money@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money@2x.png"; sourceTree = "<group>"; };
+		BF07F4F4157A4E2300FC1A7E /* Pisces@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pisces@2x.png"; sourceTree = "<group>"; };
+		BF07F4F5157A4E2300FC1A7E /* Pisces_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pisces_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4F6157A4E2300FC1A7E /* Pisces_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pisces_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4F7157A4E2300FC1A7E /* Pisces_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pisces_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4F8157A4E2300FC1A7E /* sagittarius@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sagittarius@2x.png"; sourceTree = "<group>"; };
+		BF07F4F9157A4E2300FC1A7E /* sagittarius_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sagittarius_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4FA157A4E2300FC1A7E /* sagittarius_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sagittarius_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4FB157A4E2300FC1A7E /* sagittarius_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sagittarius_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F4FC157A4E2300FC1A7E /* scorpius@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scorpius@2x.png"; sourceTree = "<group>"; };
+		BF07F4FD157A4E2300FC1A7E /* scorpius_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scorpius_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F4FE157A4E2300FC1A7E /* scorpius_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scorpius_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F4FF157A4E2300FC1A7E /* scorpius_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scorpius_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F500157A4E2300FC1A7E /* taurus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taurus@2x.png"; sourceTree = "<group>"; };
+		BF07F501157A4E2300FC1A7E /* taurus_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taurus_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F502157A4E2300FC1A7E /* taurus_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taurus_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F503157A4E2300FC1A7E /* taurus_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taurus_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F504157A4E2300FC1A7E /* virgo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "virgo@2x.png"; sourceTree = "<group>"; };
+		BF07F505157A4E2300FC1A7E /* virgo_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "virgo_highlighted@2x.png"; sourceTree = "<group>"; };
+		BF07F506157A4E2300FC1A7E /* virgo_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "virgo_normal@2x.png"; sourceTree = "<group>"; };
+		BF07F507157A4E2300FC1A7E /* virgo_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "virgo_selected@2x.png"; sourceTree = "<group>"; };
+		BF07F508157A4E2300FC1A7E /* work@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work@2x.png"; sourceTree = "<group>"; };
+		BF711DB61574747200314B9A /* 小小占星师.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小小占星师.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF711DBA1574747200314B9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF711DBC1574747200314B9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF711DBE1574747200314B9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF711DC21574747200314B9A /* MemoryTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemoryTest-Info.plist"; sourceTree = "<group>"; };
+		BF711DC41574747200314B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF711DC61574747200314B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF711DC81574747200314B9A /* MemoryTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryTest-Prefix.pch"; sourceTree = "<group>"; };
+		BF711DC91574747200314B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF711DCA1574747200314B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF711DCD1574747200314B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF711DCF1574747200314B9A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF711DD01574747200314B9A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BF711DD71574769900314B9A /* TodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		BF711DD81574769900314B9A /* TodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		BF711DDA157476A200314B9A /* WeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewController.h; sourceTree = "<group>"; };
+		BF711DDB157476A200314B9A /* WeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewController.m; sourceTree = "<group>"; };
+		BF711DDD157476B300314B9A /* MonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthViewController.h; sourceTree = "<group>"; };
+		BF711DDE157476B300314B9A /* MonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthViewController.m; sourceTree = "<group>"; };
+		BF711DF21574B1A400314B9A /* InfoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoClient.h; sourceTree = "<group>"; };
+		BF711DF31574B1A400314B9A /* InfoClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoClient.m; sourceTree = "<group>"; };
+		BF711DFB1574B3EC00314B9A /* month.ihs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = month.ihs; sourceTree = "<group>"; };
+		BF711DFC1574B3EC00314B9A /* today.ihs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = today.ihs; sourceTree = "<group>"; };
+		BF711DFD1574B3EC00314B9A /* url.ihs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = url.ihs; sourceTree = "<group>"; };
+		BF711DFE1574B3EC00314B9A /* week.ihs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = week.ihs; sourceTree = "<group>"; };
+		BF711E071574EC1700314B9A /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
+		BF711E081574EC1700314B9A /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
+		BF711E0B1574EE3C00314B9A /* ContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		BF711E0C1574EE3C00314B9A /* ContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
+		CF0ACE57160ADC1E00E7AADF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CF0ACE59160ADC5A00E7AADF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CF3AB50916E9ABD400122EE1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CF3AB50C16E9ABE400122EE1 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CF3B4E9E16DDF7580013C9ED /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
+		CF93AF5315FB37C2001729C5 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		CF93AF5415FB37C2001729C5 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		CF95FBE715ECDB1B00C947BF /* MagicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicCell.h; sourceTree = "<group>"; };
+		CF95FBE815ECDB1B00C947BF /* MagicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicCell.m; sourceTree = "<group>"; };
+		CF95FBEA15ECDF0900C947BF /* PercentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentCell.h; sourceTree = "<group>"; };
+		CF95FBEB15ECDF0900C947BF /* PercentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentCell.m; sourceTree = "<group>"; };
+		CFA087F01606BA3800114B0E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CFCA56C91611820D00D19284 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		CFCA56CA1611820D00D19284 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		CFCA56CB1611820D00D19284 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		CFCA56CC1611820D00D19284 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		CFCA56CD1611820D00D19284 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		CFCA56CE1611820D00D19284 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		CFCA56CF1611820D00D19284 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		CFCA56D01611820D00D19284 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		CFCA56D11611820D00D19284 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		CFCA56D21611820D00D19284 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		CFCA56D31611820D00D19284 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		CFCA56D41611820D00D19284 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		CFCA56D51611820D00D19284 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		CFCA56D61611820D00D19284 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		CFCA56D71611820D00D19284 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		CFCA56D81611820D00D19284 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		CFCA56D91611820D00D19284 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		CFCA56DA1611820D00D19284 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		CFCA56DB1611820D00D19284 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		CFCA56DC1611820D00D19284 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		CFCA57411611821C00D19284 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CFCA57421611821C00D19284 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CFE33D0516E9B5E2009DB095 /* IHURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHURLConnection.h; sourceTree = "<group>"; };
+		CFE33D0616E9B5E2009DB095 /* InfoHunter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoHunter.h; sourceTree = "<group>"; };
+		CFE33D0716E9B5E2009DB095 /* libInfoHunter-iOS-111120.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libInfoHunter-iOS-111120.a"; sourceTree = "<group>"; };
+		CFE33D0816E9B5E2009DB095 /* libInfoHunter-iSimulator-111120.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libInfoHunter-iSimulator-111120.a"; sourceTree = "<group>"; };
+		CFE33D0916E9B5E3009DB095 /* NSString(InfoHunter).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString(InfoHunter).h"; sourceTree = "<group>"; };
+		CFE33D0D16E9B710009DB095 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CFEF1E1616103725000AEB1A /* DescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionCell.h; sourceTree = "<group>"; };
+		CFEF1E1716103725000AEB1A /* DescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF711DB31574747200314B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE33D0E16E9B710009DB095 /* CFNetwork.framework in Frameworks */,
+				CF0ACE5A160ADC5A00E7AADF /* MobileCoreServices.framework in Frameworks */,
+				CF0ACE58160ADC1E00E7AADF /* libz.dylib in Frameworks */,
+				CFA087F11606BA3900114B0E /* SystemConfiguration.framework in Frameworks */,
+				BF711DBB1574747200314B9A /* UIKit.framework in Frameworks */,
+				BF711DBD1574747200314B9A /* Foundation.framework in Frameworks */,
+				BF711DBF1574747200314B9A /* CoreGraphics.framework in Frameworks */,
+				CFE33D0A16E9B5E3009DB095 /* libInfoHunter-iOS-111120.a in Frameworks */,
+				CFE33D0B16E9B5E3009DB095 /* libInfoHunter-iSimulator-111120.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF07F495157A4E2300FC1A7E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AB50916E9ABD400122EE1 /* icon.png */,
+				CF3B4E9E16DDF7580013C9ED /* all.png */,
+				BF07F496157A4E2300FC1A7E /* aquarius.png */,
+				BF07F497157A4E2300FC1A7E /* aquarius_highlighted.png */,
+				BF07F498157A4E2300FC1A7E /* aquarius_normal.png */,
+				BF07F499157A4E2300FC1A7E /* aquarius_selected.png */,
+				BF07F49A157A4E2300FC1A7E /* aries.png */,
+				BF07F49B157A4E2300FC1A7E /* aries_highlighted.png */,
+				BF07F49C157A4E2300FC1A7E /* aries_normal.png */,
+				BF07F49D157A4E2300FC1A7E /* aries_seleceted.png */,
+				BF07F49E157A4E2300FC1A7E /* background.png */,
+				BF07F49F157A4E2300FC1A7E /* ball.png */,
+				BF07F4A0157A4E2300FC1A7E /* ball2.png */,
+				BF07F4A1157A4E2300FC1A7E /* cancer.png */,
+				BF07F4A2157A4E2300FC1A7E /* cancer_hightlighted.png */,
+				BF07F4A3157A4E2300FC1A7E /* cancer_normal.png */,
+				BF07F4A4157A4E2300FC1A7E /* cancer_selected.png */,
+				BF07F4A5157A4E2300FC1A7E /* capricornus.png */,
+				BF07F4A6157A4E2300FC1A7E /* capricornus_highlighted.png */,
+				BF07F4A7157A4E2300FC1A7E /* capricornus_normal.png */,
+				BF07F4A8157A4E2300FC1A7E /* capricornus_selected.png */,
+				BF07F4A9157A4E2300FC1A7E /* gemini.png */,
+				BF07F4AA157A4E2300FC1A7E /* gemini_highlighted.png */,
+				BF07F4AB157A4E2300FC1A7E /* gemini_normal.png */,
+				BF07F4AC157A4E2300FC1A7E /* gemini_selected.png */,
+				BF07F4AD157A4E2300FC1A7E /* health.png */,
+				BF07F4AE157A4E2300FC1A7E /* jobhunting.png */,
+				BF07F4AF157A4E2300FC1A7E /* leonis.png */,
+				BF07F4B0157A4E2300FC1A7E /* leonis_highlighted.png */,
+				BF07F4B1157A4E2300FC1A7E /* leonis_normal.png */,
+				BF07F4B2157A4E2300FC1A7E /* leonis_selected.png */,
+				BF07F4B3157A4E2300FC1A7E /* libra.png */,
+				BF07F4B4157A4E2300FC1A7E /* libra_highlighted.png */,
+				BF07F4B5157A4E2300FC1A7E /* libra_normal.png */,
+				BF07F4B6157A4E2300FC1A7E /* libra_selected.png */,
+				BF07F4B7157A4E2300FC1A7E /* line.png */,
+				BF07F4B8157A4E2300FC1A7E /* love.png */,
+				BF07F4B9157A4E2300FC1A7E /* money.png */,
+				BF07F4BA157A4E2300FC1A7E /* Pisces.png */,
+				BF07F4BB157A4E2300FC1A7E /* Pisces_highlighted.png */,
+				BF07F4BC157A4E2300FC1A7E /* Pisces_normal.png */,
+				BF07F4BD157A4E2300FC1A7E /* Pisces_selected.png */,
+				BF07F4BE157A4E2300FC1A7E /* sagittarius.png */,
+				BF07F4BF157A4E2300FC1A7E /* sagittarius_highlighted.png */,
+				BF07F4C0157A4E2300FC1A7E /* sagittarius_normal.png */,
+				BF07F4C1157A4E2300FC1A7E /* sagittarius_selected.png */,
+				BF07F4C2157A4E2300FC1A7E /* scorpius.png */,
+				BF07F4C3157A4E2300FC1A7E /* scorpius_highlighted.png */,
+				BF07F4C4157A4E2300FC1A7E /* scorpius_normal.png */,
+				BF07F4C5157A4E2300FC1A7E /* scorpius_selected.png */,
+				BF07F4C6157A4E2300FC1A7E /* taurus.png */,
+				BF07F4C7157A4E2300FC1A7E /* taurus_highlighted.png */,
+				BF07F4C8157A4E2300FC1A7E /* taurus_normal.png */,
+				BF07F4C9157A4E2300FC1A7E /* taurus_selected.png */,
+				BF07F4CA157A4E2300FC1A7E /* virgo.png */,
+				BF07F4CB157A4E2300FC1A7E /* virgo_highlighted.png */,
+				BF07F4CC157A4E2300FC1A7E /* virgo_normal.png */,
+				BF07F4CD157A4E2300FC1A7E /* virgo_selected.png */,
+				BF07F4CE157A4E2300FC1A7E /* work.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		BF07F4CF157A4E2300FC1A7E /* image@2x */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AB50C16E9ABE400122EE1 /* icon@2x.png */,
+				BF07F4D0157A4E2300FC1A7E /* aquarius@2x.png */,
+				BF07F4D1157A4E2300FC1A7E /* aquarius_highlighted@2x.png */,
+				BF07F4D2157A4E2300FC1A7E /* aquarius_normal@2x.png */,
+				BF07F4D3157A4E2300FC1A7E /* aquarius_selected@2x.png */,
+				BF07F4D4157A4E2300FC1A7E /* aries@2x.png */,
+				BF07F4D5157A4E2300FC1A7E /* aries_highlighted@2x.png */,
+				BF07F4D6157A4E2300FC1A7E /* aries_normal@2x.png */,
+				BF07F4D7157A4E2300FC1A7E /* aries_seleceted@2x.png */,
+				BF07F4D8157A4E2300FC1A7E /* background@2x.png */,
+				BF07F4D9157A4E2300FC1A7E /* ball2@2x.png */,
+				BF07F4DA157A4E2300FC1A7E /* ball@2x.png */,
+				BF07F4DB157A4E2300FC1A7E /* cancer@2x.png */,
+				BF07F4DC157A4E2300FC1A7E /* cancer_hightlighted@2x.png */,
+				BF07F4DD157A4E2300FC1A7E /* cancer_normal@2x.png */,
+				BF07F4DE157A4E2300FC1A7E /* cancer_selected@2x.png */,
+				BF07F4DF157A4E2300FC1A7E /* capricornus@2x.png */,
+				BF07F4E0157A4E2300FC1A7E /* capricornus_highlighted@2x.png */,
+				BF07F4E1157A4E2300FC1A7E /* capricornus_normal@2x.png */,
+				BF07F4E2157A4E2300FC1A7E /* capricornus_selected@2x.png */,
+				BF07F4E3157A4E2300FC1A7E /* gemini@2x.png */,
+				BF07F4E4157A4E2300FC1A7E /* gemini_highlighted@2x.png */,
+				BF07F4E5157A4E2300FC1A7E /* gemini_normal@2x.png */,
+				BF07F4E6157A4E2300FC1A7E /* gemini_selected@2x.png */,
+				BF07F4E7157A4E2300FC1A7E /* health@2x.png */,
+				BF07F4E8157A4E2300FC1A7E /* jobhunting@2x.png */,
+				BF07F4E9157A4E2300FC1A7E /* leonis@2x.png */,
+				BF07F4EA157A4E2300FC1A7E /* leonis_highlighted@2x.png */,
+				BF07F4EB157A4E2300FC1A7E /* leonis_normal@2x.png */,
+				BF07F4EC157A4E2300FC1A7E /* leonis_selected@2x.png */,
+				BF07F4ED157A4E2300FC1A7E /* libra@2x.png */,
+				BF07F4EE157A4E2300FC1A7E /* libra_highlighted@2x.png */,
+				BF07F4EF157A4E2300FC1A7E /* libra_normal@2x.png */,
+				BF07F4F0157A4E2300FC1A7E /* libra_selected@2x.png */,
+				BF07F4F1157A4E2300FC1A7E /* line@2x.png */,
+				BF07F4F2157A4E2300FC1A7E /* love@2x.png */,
+				BF07F4F3157A4E2300FC1A7E /* money@2x.png */,
+				BF07F4F4157A4E2300FC1A7E /* Pisces@2x.png */,
+				BF07F4F5157A4E2300FC1A7E /* Pisces_highlighted@2x.png */,
+				BF07F4F6157A4E2300FC1A7E /* Pisces_normal@2x.png */,
+				BF07F4F7157A4E2300FC1A7E /* Pisces_selected@2x.png */,
+				BF07F4F8157A4E2300FC1A7E /* sagittarius@2x.png */,
+				BF07F4F9157A4E2300FC1A7E /* sagittarius_highlighted@2x.png */,
+				BF07F4FA157A4E2300FC1A7E /* sagittarius_normal@2x.png */,
+				BF07F4FB157A4E2300FC1A7E /* sagittarius_selected@2x.png */,
+				BF07F4FC157A4E2300FC1A7E /* scorpius@2x.png */,
+				BF07F4FD157A4E2300FC1A7E /* scorpius_highlighted@2x.png */,
+				BF07F4FE157A4E2300FC1A7E /* scorpius_normal@2x.png */,
+				BF07F4FF157A4E2300FC1A7E /* scorpius_selected@2x.png */,
+				BF07F500157A4E2300FC1A7E /* taurus@2x.png */,
+				BF07F501157A4E2300FC1A7E /* taurus_highlighted@2x.png */,
+				BF07F502157A4E2300FC1A7E /* taurus_normal@2x.png */,
+				BF07F503157A4E2300FC1A7E /* taurus_selected@2x.png */,
+				BF07F504157A4E2300FC1A7E /* virgo@2x.png */,
+				BF07F505157A4E2300FC1A7E /* virgo_highlighted@2x.png */,
+				BF07F506157A4E2300FC1A7E /* virgo_normal@2x.png */,
+				BF07F507157A4E2300FC1A7E /* virgo_selected@2x.png */,
+				BF07F508157A4E2300FC1A7E /* work@2x.png */,
+			);
+			path = "image@2x";
+			sourceTree = "<group>";
+		};
+		BF711DAB1574747200314B9A = {
+			isa = PBXGroup;
+			children = (
+				CFE33D0416E9B5E2009DB095 /* InfoHunter */,
+				BF711DC01574747200314B9A /* horoscope */,
+				BF711DB91574747200314B9A /* Frameworks */,
+				BF711DB71574747200314B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF711DB71574747200314B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF711DB61574747200314B9A /* 小小占星师.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF711DB91574747200314B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE33D0D16E9B710009DB095 /* CFNetwork.framework */,
+				CF0ACE57160ADC1E00E7AADF /* libz.dylib */,
+				CF0ACE59160ADC5A00E7AADF /* MobileCoreServices.framework */,
+				CFA087F01606BA3800114B0E /* SystemConfiguration.framework */,
+				BF711DBA1574747200314B9A /* UIKit.framework */,
+				BF711DBC1574747200314B9A /* Foundation.framework */,
+				BF711DBE1574747200314B9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF711DC01574747200314B9A /* horoscope */ = {
+			isa = PBXGroup;
+			children = (
+				BF711DC91574747200314B9A /* AppDelegate.h */,
+				BF711DCA1574747200314B9A /* AppDelegate.m */,
+				BF711DCC1574747200314B9A /* MainStoryboard.storyboard */,
+				BF711DF21574B1A400314B9A /* InfoClient.h */,
+				BF711DF31574B1A400314B9A /* InfoClient.m */,
+				BF711DCF1574747200314B9A /* MainViewController.h */,
+				BF711DD01574747200314B9A /* MainViewController.m */,
+				BF711E0A1574EC2000314B9A /* TableViewCell */,
+				BF711DE0157476B800314B9A /* InfoViewController */,
+				BF711DC11574747200314B9A /* Supporting Files */,
+				276DBFD518CCC82E00C9B1D4 /* MemoryTestCommonDefine.h */,
+			);
+			path = horoscope;
+			sourceTree = "<group>";
+		};
+		BF711DC11574747200314B9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA57401611821C00D19284 /* Reachability */,
+				CFCA56C81611820C00D19284 /* Classes */,
+				BF07F495157A4E2300FC1A7E /* image */,
+				BF07F4CF157A4E2300FC1A7E /* image@2x */,
+				BF711E031574B3F100314B9A /* InfoHunterScripts */,
+				BF711DC21574747200314B9A /* MemoryTest-Info.plist */,
+				BF711DC31574747200314B9A /* InfoPlist.strings */,
+				BF711DC61574747200314B9A /* main.m */,
+				BF711DC81574747200314B9A /* MemoryTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF711DE0157476B800314B9A /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF711DD71574769900314B9A /* TodayViewController.h */,
+				BF711DD81574769900314B9A /* TodayViewController.m */,
+				BF711DDA157476A200314B9A /* WeekViewController.h */,
+				BF711DDB157476A200314B9A /* WeekViewController.m */,
+				BF711DDD157476B300314B9A /* MonthViewController.h */,
+				BF711DDE157476B300314B9A /* MonthViewController.m */,
+			);
+			name = InfoViewController;
+			sourceTree = "<group>";
+		};
+		BF711E031574B3F100314B9A /* InfoHunterScripts */ = {
+			isa = PBXGroup;
+			children = (
+				BF711DFB1574B3EC00314B9A /* month.ihs */,
+				BF711DFC1574B3EC00314B9A /* today.ihs */,
+				BF711DFD1574B3EC00314B9A /* url.ihs */,
+				BF711DFE1574B3EC00314B9A /* week.ihs */,
+			);
+			name = InfoHunterScripts;
+			sourceTree = "<group>";
+		};
+		BF711E0A1574EC2000314B9A /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF711E071574EC1700314B9A /* TitleCell.h */,
+				BF711E081574EC1700314B9A /* TitleCell.m */,
+				CFEF1E1616103725000AEB1A /* DescriptionCell.h */,
+				CFEF1E1716103725000AEB1A /* DescriptionCell.m */,
+				CF93AF5315FB37C2001729C5 /* PieChart.h */,
+				CF93AF5415FB37C2001729C5 /* PieChart.m */,
+				CF95FBEA15ECDF0900C947BF /* PercentCell.h */,
+				CF95FBEB15ECDF0900C947BF /* PercentCell.m */,
+				CF95FBE715ECDB1B00C947BF /* MagicCell.h */,
+				CF95FBE815ECDB1B00C947BF /* MagicCell.m */,
+				BF711E0B1574EE3C00314B9A /* ContentCell.h */,
+				BF711E0C1574EE3C00314B9A /* ContentCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		CFCA56C81611820C00D19284 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA56C91611820D00D19284 /* ASIAuthenticationDialog.h */,
+				CFCA56CA1611820D00D19284 /* ASIAuthenticationDialog.m */,
+				CFCA56CB1611820D00D19284 /* ASICacheDelegate.h */,
+				CFCA56CC1611820D00D19284 /* ASIDataCompressor.h */,
+				CFCA56CD1611820D00D19284 /* ASIDataCompressor.m */,
+				CFCA56CE1611820D00D19284 /* ASIDataDecompressor.h */,
+				CFCA56CF1611820D00D19284 /* ASIDataDecompressor.m */,
+				CFCA56D01611820D00D19284 /* ASIDownloadCache.h */,
+				CFCA56D11611820D00D19284 /* ASIDownloadCache.m */,
+				CFCA56D21611820D00D19284 /* ASIFormDataRequest.h */,
+				CFCA56D31611820D00D19284 /* ASIFormDataRequest.m */,
+				CFCA56D41611820D00D19284 /* ASIHTTPRequest.h */,
+				CFCA56D51611820D00D19284 /* ASIHTTPRequest.m */,
+				CFCA56D61611820D00D19284 /* ASIHTTPRequestConfig.h */,
+				CFCA56D71611820D00D19284 /* ASIHTTPRequestDelegate.h */,
+				CFCA56D81611820D00D19284 /* ASIInputStream.h */,
+				CFCA56D91611820D00D19284 /* ASIInputStream.m */,
+				CFCA56DA1611820D00D19284 /* ASINetworkQueue.h */,
+				CFCA56DB1611820D00D19284 /* ASINetworkQueue.m */,
+				CFCA56DC1611820D00D19284 /* ASIProgressDelegate.h */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		CFCA57401611821C00D19284 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA57411611821C00D19284 /* Reachability.h */,
+				CFCA57421611821C00D19284 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = ../Reachability;
+			sourceTree = "<group>";
+		};
+		CFE33D0416E9B5E2009DB095 /* InfoHunter */ = {
+			isa = PBXGroup;
+			children = (
+				CFE33D0516E9B5E2009DB095 /* IHURLConnection.h */,
+				CFE33D0616E9B5E2009DB095 /* InfoHunter.h */,
+				CFE33D0716E9B5E2009DB095 /* libInfoHunter-iOS-111120.a */,
+				CFE33D0816E9B5E2009DB095 /* libInfoHunter-iSimulator-111120.a */,
+				CFE33D0916E9B5E3009DB095 /* NSString(InfoHunter).h */,
+			);
+			path = InfoHunter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF711DB51574747200314B9A /* 小小占星师 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF711DD41574747200314B9A /* Build configuration list for PBXNativeTarget "小小占星师" */;
+			buildPhases = (
+				BF711DB21574747200314B9A /* Sources */,
+				BF711DB31574747200314B9A /* Frameworks */,
+				BF711DB41574747200314B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小小占星师";
+			productName = horoscope;
+			productReference = BF711DB61574747200314B9A /* 小小占星师.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF711DAD1574747200314B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BF711DB01574747200314B9A /* Build configuration list for PBXProject "MemoryTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF711DAB1574747200314B9A;
+			productRefGroup = BF711DB71574747200314B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF711DB51574747200314B9A /* 小小占星师 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF711DB41574747200314B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF711DC51574747200314B9A /* InfoPlist.strings in Resources */,
+				BF711DCE1574747200314B9A /* MainStoryboard.storyboard in Resources */,
+				BF711DFF1574B3EC00314B9A /* month.ihs in Resources */,
+				BF711E001574B3EC00314B9A /* today.ihs in Resources */,
+				BF711E011574B3EC00314B9A /* url.ihs in Resources */,
+				BF711E021574B3EC00314B9A /* week.ihs in Resources */,
+				BF07F509157A4E2300FC1A7E /* aquarius.png in Resources */,
+				BF07F50A157A4E2300FC1A7E /* aquarius_highlighted.png in Resources */,
+				BF07F50B157A4E2300FC1A7E /* aquarius_normal.png in Resources */,
+				BF07F50C157A4E2300FC1A7E /* aquarius_selected.png in Resources */,
+				BF07F50D157A4E2300FC1A7E /* aries.png in Resources */,
+				BF07F50E157A4E2300FC1A7E /* aries_highlighted.png in Resources */,
+				BF07F50F157A4E2300FC1A7E /* aries_normal.png in Resources */,
+				BF07F510157A4E2300FC1A7E /* aries_seleceted.png in Resources */,
+				BF07F511157A4E2300FC1A7E /* background.png in Resources */,
+				BF07F512157A4E2300FC1A7E /* ball.png in Resources */,
+				BF07F513157A4E2300FC1A7E /* ball2.png in Resources */,
+				BF07F514157A4E2300FC1A7E /* cancer.png in Resources */,
+				BF07F515157A4E2300FC1A7E /* cancer_hightlighted.png in Resources */,
+				BF07F516157A4E2300FC1A7E /* cancer_normal.png in Resources */,
+				BF07F517157A4E2300FC1A7E /* cancer_selected.png in Resources */,
+				BF07F518157A4E2300FC1A7E /* capricornus.png in Resources */,
+				BF07F519157A4E2300FC1A7E /* capricornus_highlighted.png in Resources */,
+				BF07F51A157A4E2300FC1A7E /* capricornus_normal.png in Resources */,
+				BF07F51B157A4E2300FC1A7E /* capricornus_selected.png in Resources */,
+				BF07F51C157A4E2300FC1A7E /* gemini.png in Resources */,
+				BF07F51D157A4E2300FC1A7E /* gemini_highlighted.png in Resources */,
+				BF07F51E157A4E2300FC1A7E /* gemini_normal.png in Resources */,
+				BF07F51F157A4E2300FC1A7E /* gemini_selected.png in Resources */,
+				BF07F520157A4E2300FC1A7E /* health.png in Resources */,
+				BF07F521157A4E2300FC1A7E /* jobhunting.png in Resources */,
+				BF07F522157A4E2300FC1A7E /* leonis.png in Resources */,
+				BF07F523157A4E2300FC1A7E /* leonis_highlighted.png in Resources */,
+				BF07F524157A4E2300FC1A7E /* leonis_normal.png in Resources */,
+				BF07F525157A4E2300FC1A7E /* leonis_selected.png in Resources */,
+				BF07F526157A4E2300FC1A7E /* libra.png in Resources */,
+				BF07F527157A4E2300FC1A7E /* libra_highlighted.png in Resources */,
+				BF07F528157A4E2300FC1A7E /* libra_normal.png in Resources */,
+				BF07F529157A4E2300FC1A7E /* libra_selected.png in Resources */,
+				BF07F52A157A4E2300FC1A7E /* line.png in Resources */,
+				BF07F52B157A4E2300FC1A7E /* love.png in Resources */,
+				BF07F52C157A4E2300FC1A7E /* money.png in Resources */,
+				BF07F52D157A4E2300FC1A7E /* Pisces.png in Resources */,
+				BF07F52E157A4E2300FC1A7E /* Pisces_highlighted.png in Resources */,
+				BF07F52F157A4E2300FC1A7E /* Pisces_normal.png in Resources */,
+				BF07F530157A4E2300FC1A7E /* Pisces_selected.png in Resources */,
+				BF07F531157A4E2300FC1A7E /* sagittarius.png in Resources */,
+				BF07F532157A4E2300FC1A7E /* sagittarius_highlighted.png in Resources */,
+				BF07F533157A4E2300FC1A7E /* sagittarius_normal.png in Resources */,
+				BF07F534157A4E2300FC1A7E /* sagittarius_selected.png in Resources */,
+				BF07F535157A4E2300FC1A7E /* scorpius.png in Resources */,
+				BF07F536157A4E2300FC1A7E /* scorpius_highlighted.png in Resources */,
+				BF07F537157A4E2300FC1A7E /* scorpius_normal.png in Resources */,
+				BF07F538157A4E2300FC1A7E /* scorpius_selected.png in Resources */,
+				BF07F539157A4E2300FC1A7E /* taurus.png in Resources */,
+				BF07F53A157A4E2300FC1A7E /* taurus_highlighted.png in Resources */,
+				BF07F53B157A4E2300FC1A7E /* taurus_normal.png in Resources */,
+				BF07F53C157A4E2300FC1A7E /* taurus_selected.png in Resources */,
+				BF07F53D157A4E2300FC1A7E /* virgo.png in Resources */,
+				BF07F53E157A4E2300FC1A7E /* virgo_highlighted.png in Resources */,
+				BF07F53F157A4E2300FC1A7E /* virgo_normal.png in Resources */,
+				BF07F540157A4E2300FC1A7E /* virgo_selected.png in Resources */,
+				BF07F541157A4E2300FC1A7E /* work.png in Resources */,
+				BF07F542157A4E2300FC1A7E /* aquarius@2x.png in Resources */,
+				BF07F543157A4E2300FC1A7E /* aquarius_highlighted@2x.png in Resources */,
+				BF07F544157A4E2300FC1A7E /* aquarius_normal@2x.png in Resources */,
+				BF07F545157A4E2300FC1A7E /* aquarius_selected@2x.png in Resources */,
+				BF07F546157A4E2300FC1A7E /* aries@2x.png in Resources */,
+				BF07F547157A4E2300FC1A7E /* aries_highlighted@2x.png in Resources */,
+				BF07F548157A4E2300FC1A7E /* aries_normal@2x.png in Resources */,
+				BF07F549157A4E2300FC1A7E /* aries_seleceted@2x.png in Resources */,
+				BF07F54A157A4E2300FC1A7E /* background@2x.png in Resources */,
+				BF07F54B157A4E2300FC1A7E /* ball2@2x.png in Resources */,
+				BF07F54C157A4E2300FC1A7E /* ball@2x.png in Resources */,
+				BF07F54D157A4E2300FC1A7E /* cancer@2x.png in Resources */,
+				BF07F54E157A4E2300FC1A7E /* cancer_hightlighted@2x.png in Resources */,
+				BF07F54F157A4E2300FC1A7E /* cancer_normal@2x.png in Resources */,
+				BF07F550157A4E2300FC1A7E /* cancer_selected@2x.png in Resources */,
+				BF07F551157A4E2300FC1A7E /* capricornus@2x.png in Resources */,
+				BF07F552157A4E2300FC1A7E /* capricornus_highlighted@2x.png in Resources */,
+				BF07F553157A4E2300FC1A7E /* capricornus_normal@2x.png in Resources */,
+				BF07F554157A4E2300FC1A7E /* capricornus_selected@2x.png in Resources */,
+				BF07F555157A4E2300FC1A7E /* gemini@2x.png in Resources */,
+				BF07F556157A4E2300FC1A7E /* gemini_highlighted@2x.png in Resources */,
+				BF07F557157A4E2300FC1A7E /* gemini_normal@2x.png in Resources */,
+				BF07F558157A4E2300FC1A7E /* gemini_selected@2x.png in Resources */,
+				BF07F559157A4E2300FC1A7E /* health@2x.png in Resources */,
+				BF07F55A157A4E2300FC1A7E /* jobhunting@2x.png in Resources */,
+				BF07F55B157A4E2300FC1A7E /* leonis@2x.png in Resources */,
+				BF07F55C157A4E2300FC1A7E /* leonis_highlighted@2x.png in Resources */,
+				BF07F55D157A4E2300FC1A7E /* leonis_normal@2x.png in Resources */,
+				BF07F55E157A4E2300FC1A7E /* leonis_selected@2x.png in Resources */,
+				BF07F55F157A4E2300FC1A7E /* libra@2x.png in Resources */,
+				BF07F560157A4E2300FC1A7E /* libra_highlighted@2x.png in Resources */,
+				BF07F561157A4E2300FC1A7E /* libra_normal@2x.png in Resources */,
+				BF07F562157A4E2300FC1A7E /* libra_selected@2x.png in Resources */,
+				BF07F563157A4E2300FC1A7E /* line@2x.png in Resources */,
+				BF07F564157A4E2300FC1A7E /* love@2x.png in Resources */,
+				BF07F565157A4E2300FC1A7E /* money@2x.png in Resources */,
+				BF07F566157A4E2300FC1A7E /* Pisces@2x.png in Resources */,
+				BF07F567157A4E2300FC1A7E /* Pisces_highlighted@2x.png in Resources */,
+				BF07F568157A4E2300FC1A7E /* Pisces_normal@2x.png in Resources */,
+				BF07F569157A4E2300FC1A7E /* Pisces_selected@2x.png in Resources */,
+				BF07F56A157A4E2300FC1A7E /* sagittarius@2x.png in Resources */,
+				BF07F56B157A4E2300FC1A7E /* sagittarius_highlighted@2x.png in Resources */,
+				BF07F56C157A4E2300FC1A7E /* sagittarius_normal@2x.png in Resources */,
+				BF07F56D157A4E2300FC1A7E /* sagittarius_selected@2x.png in Resources */,
+				BF07F56E157A4E2300FC1A7E /* scorpius@2x.png in Resources */,
+				BF07F56F157A4E2300FC1A7E /* scorpius_highlighted@2x.png in Resources */,
+				BF07F570157A4E2300FC1A7E /* scorpius_normal@2x.png in Resources */,
+				BF07F571157A4E2300FC1A7E /* scorpius_selected@2x.png in Resources */,
+				BF07F572157A4E2300FC1A7E /* taurus@2x.png in Resources */,
+				BF07F573157A4E2300FC1A7E /* taurus_highlighted@2x.png in Resources */,
+				BF07F574157A4E2300FC1A7E /* taurus_normal@2x.png in Resources */,
+				BF07F575157A4E2300FC1A7E /* taurus_selected@2x.png in Resources */,
+				BF07F576157A4E2300FC1A7E /* virgo@2x.png in Resources */,
+				BF07F577157A4E2300FC1A7E /* virgo_highlighted@2x.png in Resources */,
+				BF07F578157A4E2300FC1A7E /* virgo_normal@2x.png in Resources */,
+				BF07F579157A4E2300FC1A7E /* virgo_selected@2x.png in Resources */,
+				BF07F57A157A4E2300FC1A7E /* work@2x.png in Resources */,
+				CF3B4E9F16DDF7580013C9ED /* all.png in Resources */,
+				CF3AB50A16E9ABD400122EE1 /* icon.png in Resources */,
+				CF3AB50D16E9ABE400122EE1 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF711DB21574747200314B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF711DC71574747200314B9A /* main.m in Sources */,
+				BF711DCB1574747200314B9A /* AppDelegate.m in Sources */,
+				BF711DD11574747200314B9A /* MainViewController.m in Sources */,
+				BF711DD91574769900314B9A /* TodayViewController.m in Sources */,
+				BF711DDC157476A200314B9A /* WeekViewController.m in Sources */,
+				BF711DDF157476B300314B9A /* MonthViewController.m in Sources */,
+				BF711DF41574B1A400314B9A /* InfoClient.m in Sources */,
+				BF711E091574EC1800314B9A /* TitleCell.m in Sources */,
+				BF711E0D1574EE3C00314B9A /* ContentCell.m in Sources */,
+				CF95FBE915ECDB1B00C947BF /* MagicCell.m in Sources */,
+				CF95FBEC15ECDF0900C947BF /* PercentCell.m in Sources */,
+				CF93AF5515FB37C2001729C5 /* PieChart.m in Sources */,
+				CFEF1E1816103725000AEB1A /* DescriptionCell.m in Sources */,
+				CFCA571B1611820D00D19284 /* ASIAuthenticationDialog.m in Sources */,
+				CFCA571C1611820D00D19284 /* ASIDataCompressor.m in Sources */,
+				CFCA571D1611820D00D19284 /* ASIDataDecompressor.m in Sources */,
+				CFCA571E1611820D00D19284 /* ASIDownloadCache.m in Sources */,
+				CFCA571F1611820D00D19284 /* ASIFormDataRequest.m in Sources */,
+				CFCA57201611820D00D19284 /* ASIHTTPRequest.m in Sources */,
+				CFCA57211611820D00D19284 /* ASIInputStream.m in Sources */,
+				CFCA57221611820D00D19284 /* ASINetworkQueue.m in Sources */,
+				CFCA57431611821C00D19284 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF711DC31574747200314B9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF711DC41574747200314B9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF711DCC1574747200314B9A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF711DCD1574747200314B9A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF711DD21574747200314B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF711DD31574747200314B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF711DD51574747200314B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ZHANG XIN NAN (7KTY256XRX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "horoscope/MemoryTest-Prefix.pch";
+				INFOPLIST_FILE = "horoscope/MemoryTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/InfoHunter\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D2849A3B-DDE7-4195-AF14-379EFBC6F075";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF711DD61574747200314B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "horoscope/MemoryTest-Prefix.pch";
+				INFOPLIST_FILE = "horoscope/MemoryTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/InfoHunter\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF711DB01574747200314B9A /* Build configuration list for PBXProject "MemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF711DD21574747200314B9A /* Debug */,
+				BF711DD31574747200314B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF711DD41574747200314B9A /* Build configuration list for PBXNativeTarget "小小占星师" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF711DD51574747200314B9A /* Debug */,
+				BF711DD61574747200314B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF711DAD1574747200314B9A /* Project object */;
+}

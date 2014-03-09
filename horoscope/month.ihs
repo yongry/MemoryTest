@@ -1,0 +1,11 @@
+%- http://astro.lady.qq.com/ -%
+%-start-%
+时间：</strong><span class="co_5">%info(time)</span>
+星座：</strong><span class="co_5">%info(horo)</span>
+<td class="lh22 indent" id="maintext">%info(all)</td>
+<td class="lh22 indent">%info(love)</td>
+<td class="lh22 indent">%info(money)</td>
+<td class="lh22 indent">%info(work)</td>
+<td class="lh22 indent">%info(health)</td>
+<td height="50" valign="top" class="lh22 indent">%info(magic)</td>
+%-end-%

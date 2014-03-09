@@ -1,0 +1,12 @@
+%- http://astro.lady.qq.com/ -%
+%-start-%
+时间：</strong><span class="co_5">%info(time)</span>
+星座：</strong><span class="co_5">%info(horo)</span>
+
+<td width="152" height="320" class="co_6 bold"><table width="126" border="0" cellspacing="0" cellpadding="0">%list(itemArray){
+class="bg_no bg_lc pl7">%info(name)：<span class="co_7">%info(sum)</span>
+}</table></td>
+
+<td align="left" class="lh24 fs14 indent pad2"><p id="maintext">%info(todayDescription)</p></td>
+
+%-end-%
