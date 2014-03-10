@@ -9,8 +9,7 @@
 #import "ContentCell.h"
 
 @implementation ContentCell
-@synthesize contentTextView = _contentTextView;
-@synthesize iconView = _iconView;
+
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

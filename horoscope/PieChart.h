@@ -1,10 +1,10 @@
-/**
- * 
- * @author 		Ruoyi Yong
- * @copyright	2013
- * @version
- * 
- */
+//
+//  DescriptionCell.h
+//  MemoryTest
+//
+//  Created by JessieYong on 13-11-24.
+//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
@@ -12,11 +12,11 @@
 {
     float value, startDeg, endDeg;
     NSString *title;
-    UIColor *colour;
+    UIColor *color;
     UIColor *backgroundColor;
 }
 @property (nonatomic, assign) float value, startDeg, endDeg;
-@property (nonatomic, retain) UIColor *colour;
+@property (nonatomic, retain) UIColor *color;
 @property (nonatomic, retain) UIColor *backgroundColor;
 @property (nonatomic, retain) UIColor *textColor;
 @property (nonatomic, retain) NSString *title;

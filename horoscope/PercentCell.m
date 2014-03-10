@@ -11,11 +11,6 @@
 @implementation PercentCell
 
 
-@synthesize imageAll = _imageAll;
-@synthesize imageLove = _imageLove;
-@synthesize imageMoney = _imageMoney;
-@synthesize imageWork = _imageWork;
-
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];

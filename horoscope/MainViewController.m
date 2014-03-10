@@ -125,10 +125,7 @@ typedef enum {
     
     NSLog(@"T: x = %f y = %f", translatedPoint.x, translatedPoint.y);
     NSLog(@"O: x = %f y = %f", original.x, original.y);
-    
-    if ([reconizer state] == UIGestureRecognizerStateBegan) {
-        original = self.chooseView.center;
-    }
+
     [self.chooseView setCenter:CGPointMake(original.x, original.y + translatedPoint.y)];
     if ([reconizer state] == UIGestureRecognizerStateEnded) {
         if (translatedPoint.y > 20) {
@@ -153,7 +150,7 @@ typedef enum {
                          completion:^(BOOL finish){
                              
                          }];
-        [self.navigationTitle setText:[InfoClient chineseFromHoroType:[[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"]intValue]]];
+        [self.navigationTitle setText:[InfoClient chineseFromHoroType:[[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"] intValue]]];
         
         
     } else {

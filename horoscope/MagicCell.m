@@ -10,8 +10,6 @@
 
 @implementation MagicCell
 
-@synthesize textView = _textView;
-@synthesize image = _image;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

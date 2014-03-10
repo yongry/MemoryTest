@@ -1,14 +1,15 @@
-/**
- * @author 		Ruoyi Yong
- * @copyright	2013
- * @version
- * 
- */
+//
+//  DescriptionCell.h
+//  MemoryTest
+//
+//  Created by JessieYong on 13-11-24.
+//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//
 
 #import "PieChart.h"
 
 @implementation PieComponent
-@synthesize value, title, backgroundColor,colour, textColor,startDeg, endDeg;
+@synthesize value, title, backgroundColor,color, textColor,startDeg, endDeg;
 
 - (id)initWithTitle:(NSString*)_title value:(float)_value color:(UIColor *)_backgroundColor textColor:(UIColor *)_textColor
 {
@@ -17,7 +18,7 @@
     {
         self.title = _title;
         self.value = _value;
-        self.colour = PCColorDefault;
+        self.color = PCColorDefault;
         self.backgroundColor = _backgroundColor;
         self.textColor = _textColor;
     }
@@ -79,13 +80,13 @@
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     //UIGraphicsPushContext(ctx);
     NSLog(@"%@",[component title]);
-    CGContextSetFillColorWithColor(ctx, [component.colour CGColor]);
+    CGContextSetFillColorWithColor(ctx, [component.color CGColor]);
     CGContextFillEllipseInRect(ctx, CGRectMake(x, y, diameter, diameter));  // a white filled circle with a diameter of 100 pixels, centered in (60, 60)
    // UIGraphicsPopContext();
     CGContextClosePath(ctx);
 			
     float endDeg = 0;
-	if([component title] == @"all")
+	if([[component title] isEqualToString: @"all"])
         CGContextSetRGBFillColor(ctx, 227/255.0,173/255.0, 77/255.0, 1.0f); 
     else 
         CGContextSetRGBFillColor(ctx, 122/255.0,194/255.0, 219/255.0, 1.0f); 				
@@ -102,11 +103,7 @@
      CGContextAddArc(ctx, origin_x, origin_y, inner_radius/1.6 ,0,M_PI*2,0);
      CGContextFillPath(ctx);
      CGContextClosePath(ctx);
-    
 
-  //  -(CGPoint)drawInRect:(CGRect)rect withFont:(UIFont*)font orientation:(WBOrientation)orient alignment:(UITextAlignment)align;
-    
-    
     CGContextSetFillColorWithColor(ctx,[[component textColor] CGColor]);	
    //CGContextSetStrokeColorWithColor(ctx, [[UIColor blackColor]CGColor]);
     UIFont * font = [UIFont fontWithName:@"Arial" size:13];  
@@ -114,7 +111,7 @@
     str = [str stringByAppendingString:@"%"];
     [str drawAtPoint:CGPointMake(origin_x - 12, origin_y - 7) withFont:font]; 
    // CGContextStrokePath(ctx);
-   // CGContextClosePath(ctx);
+   CGContextClosePath(ctx);
 
 	
 }
