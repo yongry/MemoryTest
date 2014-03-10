@@ -9,8 +9,7 @@
 #import "TitleCell.h"
 
 @implementation TitleCell
-@synthesize title = _title;
-@synthesize time = _time;
+
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

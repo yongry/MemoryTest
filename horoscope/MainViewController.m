@@ -65,25 +65,14 @@ typedef enum {
     if (![[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"]) {
         [self moveChooseViewTo:ChooseViewStateDown];
     } else {
-        HoroscopeType myHoro = [[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"]intValue];
+        HoroscopeType myHoro = [[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"] intValue];
         [self setBallButtonImageFromHoroType:myHoro];
         
         [[InfoClient shareClient] getHoroItemWithHoroType:myHoro];
         
-        
-        //        [self.navigationTitle setText:[InfoClient chineseFromHoroType:myHoro]];
-        //        for (UIButton* btn in buttonArray) {
-        //            if (btn.tag == [[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"] intValue]) {
-        //                [btn setSelected:YES];
-        //            }
-        //        }
-        //        [self moveChooseViewTo:ChooseViewStateUp];
-        //        [self setBallButtonImageFromHoroType:myHoro];
-        
     }
     
-    [self configureGestureRecognizer];        
-    
+    [self configureGestureRecognizer];
     [[InfoClient shareClient] getLinkFromWeb];
     
 }
@@ -110,49 +99,9 @@ typedef enum {
 
 #pragma mark - main view methods
 
-- (void)setBallButtonImageFromHoroType:(HoroscopeType) type
+- (void)setBallButtonImageFromHoroType:(HoroscopeType)type
 {
-    NSString *fileName = [[NSString alloc] init];
-    switch (type) {
-        case 0:
-            fileName = @"aries";
-            break;
-        case 1:
-            fileName = @"taurus";
-            break;
-        case 2:
-            fileName = @"gemini";
-            break;
-        case 3:
-            fileName = @"cancer";
-            break;
-        case 4:
-            fileName = @"leonis";
-            break;
-        case 5:
-            fileName = @"virgo";
-            break;
-        case 6:
-            fileName = @"libra";
-            break;
-        case 7:
-            fileName = @"scorpius";
-            break;
-        case 8:
-            fileName = @"sagittarius";
-            break;
-        case 9:
-            fileName = @"capricornus";
-            break;
-        case 10:
-            fileName = @"aquarius";
-            break;
-        case 11:
-            fileName = @"pisces";
-            break;            
-        default:
-            break;
-    }
+    NSString *fileName = [horoEnglishNameArray objectAtIndex:type];
     [self.ballButton setImage:[UIImage imageNamed:fileName] forState:UIControlStateNormal];
 }
 
@@ -165,6 +114,7 @@ typedef enum {
     [self.navigationView addGestureRecognizer:recognizer];
 }
 
+
 - (void)handlePanFrom:(UIPanGestureRecognizer *)reconizer
 {
     CGPoint translatedPoint = [reconizer translationInView:self.view];
@@ -175,10 +125,7 @@ typedef enum {
     
     NSLog(@"T: x = %f y = %f", translatedPoint.x, translatedPoint.y);
     NSLog(@"O: x = %f y = %f", original.x, original.y);
-    
-    if ([reconizer state] == UIGestureRecognizerStateBegan) {
-        original = self.chooseView.center;
-    }
+
     [self.chooseView setCenter:CGPointMake(original.x, original.y + translatedPoint.y)];
     if ([reconizer state] == UIGestureRecognizerStateEnded) {
         if (translatedPoint.y > 20) {
@@ -203,7 +150,7 @@ typedef enum {
                          completion:^(BOOL finish){
                              
                          }];
-        [self.navigationTitle setText:[InfoClient chineseFromHoroType:[[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"]intValue]]];
+        [self.navigationTitle setText:[InfoClient chineseFromHoroType:[[[NSUserDefaults standardUserDefaults] valueForKey:@"myHoro"] intValue]]];
         
         
     } else {

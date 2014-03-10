@@ -69,7 +69,7 @@
     CGFloat height;
     switch (indexPath.row) {
         case 0:
-            height = 70;
+            height = TitleCellHeight;
             break;
         default:
         {

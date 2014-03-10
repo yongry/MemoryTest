@@ -11,14 +11,6 @@
 
 @implementation DescriptionCell
 
-@synthesize numberLabel = _numberLabel;
-@synthesize colorLabel = _colorLabel;
-@synthesize horoscopeLabel = _horoscopeLabel;
-//@synthesize textView = _textView;
-@synthesize allLabel = _allLabel;
-@synthesize loveLabel = _loveLabel;
-@synthesize moneyLabel = _moneyLabel;
-@synthesize workLabel = _workLabel;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

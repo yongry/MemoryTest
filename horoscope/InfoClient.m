@@ -133,78 +133,82 @@
 
 + (HoroscopeType)horoKeyFromChineseName:(NSString *)chineseName
 {
-    if ([chineseName isEqualToString:@"白羊座"]) {
-        return HoroscopeTypeAries;
-    } else if ([chineseName isEqualToString:@"金牛座"]) {
-        return HoroscopeTypeTaurus;
-    } else if ([chineseName isEqualToString:@"双子座"]) {
-        return HoroscopeTypeGemini;
-    } else if ([chineseName isEqualToString:@"巨蟹座"]) {
-        return HoroscopeTypeCancer;
-    } else if ([chineseName isEqualToString:@"狮子座"]) {
-        return HoroscopeTypeLeo;
-    } else if ([chineseName isEqualToString:@"处女座"]) {
-        return HoroscopeTypeVirgo;
-    } else if ([chineseName isEqualToString:@"天秤座"]) {
-        return HoroscopeTypeLibra;
-    } else if ([chineseName isEqualToString:@"天蝎座"]) {
-        return HoroscopeTypeScoprio;
-    } else if ([chineseName isEqualToString:@"射手座"]) {
-        return HoroscopeTypeSagittarius;
-    } else if ([chineseName isEqualToString:@"摩羯座"]) {
-        return HoroscopeTypeCapricorn;
-    } else if ([chineseName isEqualToString:@"水瓶座"]) {
-        return HoroscopeTypeAquarius;
-    } else if ([chineseName isEqualToString:@"双鱼座"]) {
-        return HoroscopeTypePisces;
-    }
-    return HoroscopeTypeNil;
+    return [horoChineseNameArray indexOfObject:chineseName];
 }
+//    if ([chineseName isEqualToString:@"白羊座"]) {
+//        return HoroscopeTypeAries;
+//    } else if ([chineseName isEqualToString:@"金牛座"]) {
+//        return HoroscopeTypeTaurus;
+//    } else if ([chineseName isEqualToString:@"双子座"]) {
+//        return HoroscopeTypeGemini;
+//    } else if ([chineseName isEqualToString:@"巨蟹座"]) {
+//        return HoroscopeTypeCancer;
+//    } else if ([chineseName isEqualToString:@"狮子座"]) {
+//        return HoroscopeTypeLeo;
+//    } else if ([chineseName isEqualToString:@"处女座"]) {
+//        return HoroscopeTypeVirgo;
+//    } else if ([chineseName isEqualToString:@"天秤座"]) {
+//        return HoroscopeTypeLibra;
+//    } else if ([chineseName isEqualToString:@"天蝎座"]) {
+//        return HoroscopeTypeScoprio;
+//    } else if ([chineseName isEqualToString:@"射手座"]) {
+//        return HoroscopeTypeSagittarius;
+//    } else if ([chineseName isEqualToString:@"摩羯座"]) {
+//        return HoroscopeTypeCapricorn;
+//    } else if ([chineseName isEqualToString:@"水瓶座"]) {
+//        return HoroscopeTypeAquarius;
+//    } else if ([chineseName isEqualToString:@"双鱼座"]) {
+//        return HoroscopeTypePisces;
+//    }
+//    return HoroscopeTypeNil;
+//}
 
 + (NSString *)chineseFromHoroType:(HoroscopeType) type
 {
-    NSString *name = [[NSString alloc] init];
-    switch (type) {
-        case 0:
-            name =  @"白羊座";
-            break;
-        case 1:
-            name =  @"金牛座";
-            break;
-        case 2:
-            name =  @"双子座";
-            break;
-        case 3:
-            name =  @"巨蟹座";
-            break;
-        case 4:
-            name =  @"狮子座";
-            break;
-        case 5:
-            name =  @"处女座";
-            break;
-        case 6:
-            name =  @"天秤座";
-            break;
-        case 7:
-            name =  @"天蝎座";
-            break;
-        case 8:
-            name =  @"射手座";
-            break;
-        case 9:
-            name =  @"摩羯座";
-            break;
-        case 10:
-            name =  @"水瓶座";
-            break;
-        case 11:
-            name =  @"双鱼座";
-            break;
-        default:
-            break;
-    }
-    return name;
+    return [horoChineseNameArray objectAtIndex:type];
 }
+////    NSString *name = [[NSString alloc] init];
+////    switch (type) {
+////        case 0:
+////            name =  @"白羊座";
+////            break;
+////        case 1:
+////            name =  @"金牛座";
+////            break;
+////        case 2:
+////            name =  @"双子座";
+////            break;
+////        case 3:
+////            name =  @"巨蟹座";
+////            break;
+////        case 4:
+////            name =  @"狮子座";
+////            break;
+////        case 5:
+////            name =  @"处女座";
+////            break;
+////        case 6:
+////            name =  @"天秤座";
+////            break;
+////        case 7:
+////            name =  @"天蝎座";
+////            break;
+////        case 8:
+////            name =  @"射手座";
+////            break;
+////        case 9:
+////            name =  @"摩羯座";
+////            break;
+////        case 10:
+////            name =  @"水瓶座";
+////            break;
+////        case 11:
+////            name =  @"双鱼座";
+////            break;
+////        default:
+////            break;
+////    }
+////    return name;
+//}
 
 @end
